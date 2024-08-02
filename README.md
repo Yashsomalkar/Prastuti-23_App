@@ -1,16 +1,38 @@
-# prastuti_23
+# Prastuti Technical Fest Application
 
-A new Flutter project.
+Welcome to the Prastuti Technical Fest Application repository! This application was developed to manage our college's annual technical fest, featuring multiple events and competitions. Built using Flutter and ExpressJS, the app follows the MVVM architecture to ensure maintainability and scalability.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User Registration and Login**: Secure authentication with Firebase.
+- **Event Management**: Browse and register for various events and competitions.
+- **User Profiles**: View and update profiles showcasing user points, ranks, and badges.
+- **Push Notifications**: Receive real-time updates and notifications about events via OneSignal.
+- **Social Media Integration**: Display links to various social media platforms.
+  
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- **Frontend**: Flutter, Dart
+- **Backend**: ExpressJS, Node.js
+- **Authentication**: Firebase
+- **State Management**: MVVM
+- **Push Notifications**: OneSignal
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Usage
+
+1. **User Registration and Login**
+   - Users can register and log in using their email and password.
+   - Password reset functionality is also available.
+
+2. **Event Management**
+   - Users can browse through a list of events and register for their preferred ones.
+   - Event details, schedules, and locations are displayed for each event.
+
+3. **User Profiles**
+   - Users can view and update their profiles, which display points, ranks, and badges earned.
+
+4. **Push Notifications**
+   - Users receive real-time notifications about events, updates, and other important information.
+
